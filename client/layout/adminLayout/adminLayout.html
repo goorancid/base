@@ -1,0 +1,26 @@
+<template name="adminLayout">
+    <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+        {{>header}}
+        <!-- Left side column. contains the logo and sidebar -->
+        {{>sideBar}}
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            {{>contentHeader}}
+            <!-- Main content -->
+            {{> Template.dynamic template=main}}
+        </div><!-- /.content-wrapper -->
+        {{> adminFooter}}
+        <!-- Control Sidebar -->
+        {{>controlSideBar}}
+    </div><!-- ./wrapper -->
+
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    </body>
+</template>

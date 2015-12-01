@@ -1,0 +1,61 @@
+<template name="profile">
+    <main>
+        {{#if currentUser}}
+            {{> loggedProfile}}
+        {{else}}
+            {{> login}}
+        {{/if}}
+    </main>
+</template>
+
+<template name="loggedProfile">
+
+    {{#autoForm id="updateProfile" collection=Users doc=currentUser type="update"}}
+        <div class="col-md-12">{{> alert}}</div>
+        <div class="col-md-3">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Picture</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                    {{> afQuickField name="profile.picture"}}
+                </div><!-- /.box-body -->
+            </div><!-- /.box -->
+
+        </div>
+        <div class="col-md-9">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Profile</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                    <div>
+                        <a>First Name</a>
+                        {{> afQuickField name='profile.firstName' }}
+                    </div>
+                    <div>
+                        <a>Last Name</a>
+                        {{> afQuickField name='profile.lastName' }}
+                    </div>
+                    <div>
+                        <a>Bio</a>
+                        {{> afQuickField name='profile.bio' }}
+                    </div>
+                    <div>
+                        <a>Location</a>
+                        {{> afQuickField name='profile.location' }}
+                    </div>
+                    <div>
+                        <a>Country</a>
+                        {{> afQuickField name='profile.country' }}
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </div><!-- /.box-body -->
+            </div><!-- /.box -->
+        </div>
+    {{/autoForm}}
+</template>
+
+<template name="alert">
+    <div></div>
+</template>

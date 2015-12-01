@@ -1,0 +1,49 @@
+<template name="dashboard">
+    {{#if currentUser}}
+        {{> dashboardHome}}
+    {{else}}
+        {{> login}}
+    {{/if}}
+</template>
+
+<template name="dashboardHome">
+    <!-- Main content -->
+    <section class="content">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            {{>statBoxes}}
+        </div><!-- /.row -->
+        <!-- Main row -->
+        <div class="row">
+            <!-- Left col -->
+            <section class="col-lg-7 connectedSortable">
+                <!-- Custom tabs (Charts with tabs)-->
+                {{>customTabs}}
+
+                <!-- Chat box -->
+                {{>chat}}
+
+                <!-- TO DO List -->
+                {{>todoList}}
+
+                <!-- quick email widget -->
+                {{>quickEmail}}
+
+            </section><!-- /.Left col -->
+            <!-- right col (We are only adding the ID to make the widgets sortable)-->
+            <section class="col-lg-5 connectedSortable">
+
+                <!-- Map box -->
+                {{>mapBox}}
+
+                <!-- solid sales graph -->
+                {{>solidGraph}}
+
+                <!-- Calendar -->
+                {{>calendar}}
+
+            </section><!-- right col -->
+        </div><!-- /.row (main row) -->
+
+    </section><!-- /.content -->
+</template>
