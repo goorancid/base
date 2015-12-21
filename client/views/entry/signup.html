@@ -1,0 +1,36 @@
+<template name="signup">
+    <div class="accounts-box container">
+        <div class="form-group container">
+            <h3>Create an account</h3>
+            <form>
+                <div class="form-group col-md-12">
+                    <label>Email address</label>
+                    <input type="email" class="form-control" id="signupEmail" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Password">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Password">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Password</label>
+                    <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Confirm</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-danger btn-lg" id="signup">Submit</button>
+            </form>
+        </div>
+        <a href="login" class="pull-left">
+            Already have an account?
+        </a>
+        <a href="forgot" class="pull-right">
+            Forgot your password?
+        </a>
+    </div>
+</template>

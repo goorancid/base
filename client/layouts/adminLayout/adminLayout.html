@@ -1,0 +1,13 @@
+<template name="adminLayout">
+    <header>
+        {{> topbar}}
+    </header>
+
+    {{> sidebar}}
+    {{> Template.dynamic template=main}}
+
+    <footer>
+        {{> adminFooter}}
+    </footer>
+
+</template>
