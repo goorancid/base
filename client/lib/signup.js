@@ -1,5 +1,5 @@
 Template.signup.events({
-    'click #register-button': function(e, t) {
+    'click #signup': function(e, t) {
         e.preventDefault();
         // Retrieve the input field values
         var email = $('#signupEmail').val(),
@@ -40,7 +40,8 @@ Template.signup.events({
                 if (error) {
                     console.log("Error: " + error.reason);
                 } else {
-                    FlowRouter.go('/dashboard');
+                    console.log("Submitted");
+                    FlowRouter.go("/dashboard");
                 }
             });
         }

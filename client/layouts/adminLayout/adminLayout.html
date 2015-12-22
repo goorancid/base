@@ -3,11 +3,15 @@
         {{> topbar}}
     </header>
 
-    {{> sidebar}}
-    {{> Template.dynamic template=main}}
-
-    <footer>
-        {{> adminFooter}}
-    </footer>
-
+    <div id="inline_container">
+        <aside>
+            {{> sidebar}}
+        </aside>
+        <div class="main_container">
+            {{> Template.dynamic template=main}}
+        </div>
+        <footer>
+            {{> adminFooter}}
+        </footer>
+    </div>
 </template>

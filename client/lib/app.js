@@ -4,3 +4,7 @@ Template.topbar.events({
         console.log("You clicked logout");
     }
 });
+
+Template.topbar.helpers({
+
+});

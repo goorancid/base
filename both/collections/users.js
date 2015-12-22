@@ -40,12 +40,6 @@ Schemas.UserProfile = new SimpleSchema({
             searchBox: true,
             autolocate: true
         }
-    },
-    country: {
-        type: String,
-        label: 'Nationality',
-        allowedValues: ["Select Country", "Afghanistan", "Albania"],
-        optional: true
     }
 });
 
@@ -77,20 +71,6 @@ Schemas.User = new SimpleSchema({
         type: Object,
         optional: true,
         blackbox: true
-    },
-    roles: {
-        blackbox: true,
-        type: String,
-        label: 'Nationality',
-        allowedValues: [
-            "Select Country",
-            "Company",
-            "Admin",
-            "Driver",
-            "Shipper",
-            "Broker"
-        ],
-        optional: true
     }
 });
 

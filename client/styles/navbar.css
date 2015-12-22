@@ -1,0 +1,9 @@
+.user-image {
+    height: 40px;
+    max-height: 100%;
+    width: 240px;
+    padding: 5px 15px !important;
+}
+.container-fluid {
+    padding: 0 !important;
+}
