@@ -1,0 +1,30 @@
+.pic {
+    margin-top:200px;
+    width:120px;
+    margin-left:50px;
+    margin-bottom:-60px;
+}
+.panel {
+    height: 250px;
+    background-image:url("http://www.californiafootgolfclub.com/static/img/footgolf-1.jpg");
+}
+.name {
+    position:absolute;
+    padding-left:200px;
+    font-size:30px;
+}
+.dropdown {
+    position:absolute;
+}
+.change {
+    position:relative;
+    bottom:20px;
+    padding:1px;
+    color:white;
+    text-decoration:none;
+}
+.change:hover {
+    text-decoration:none;
+    background-color:black;
+    color:white;
+}
