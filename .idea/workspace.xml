@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d2de0d2-8e69-4632-a00a-80e7e9a0a69b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/logout.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/logout.js" afterPath="$PROJECT_DIR$/client/lib/logout.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/topnav.html" afterPath="$PROJECT_DIR$/client/partials/topnav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/entry/login.html" afterPath="$PROJECT_DIR$/client/views/entry/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/frontend/pricing.html" afterPath="$PROJECT_DIR$/client/views/frontend/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/profile/profile.html" afterPath="$PROJECT_DIR$/client/views/profile/profile.html" />
     </list>
     <ignored path="base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topnav.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topnav.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/partials/topnav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39955848">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="34" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -101,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logout.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/lib/logout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.35490605">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -186,10 +183,10 @@
         <option value="$PROJECT_DIR$/client/views/dashboard/dashboard.html" />
         <option value="$PROJECT_DIR$/client/styles/navbar.css" />
         <option value="$PROJECT_DIR$/client/views/entry/login.html" />
-        <option value="$PROJECT_DIR$/client/lib/logout.js" />
         <option value="$PROJECT_DIR$/client/views/profile/profile.html" />
         <option value="$PROJECT_DIR$/client/views/frontend/pricing.html" />
         <option value="$PROJECT_DIR$/client/partials/topnav.html" />
+        <option value="$PROJECT_DIR$/client/lib/logout.js" />
       </list>
     </option>
   </component>
@@ -295,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,7 +660,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#552#913#0" expanded="false" />
           </folding>
         </state>
@@ -727,14 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/lib/logout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/partials/topbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
@@ -764,8 +753,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/partials/topnav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39955848">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="34" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/lib/logout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35490605">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>

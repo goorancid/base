@@ -7,5 +7,6 @@ Template.topbar.events({
                 //show alert that says logged out
             }
         });
+        return FlowRouter.go("login")
     }
 });
